@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Robot EV3 direction</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="settings">
+        <h3>Enter EV3 IPADDRESS</h3>
+        <input type="text" name="ipaddress" class="settingsInput" id="ipaddress">
+        <br/>
+        <br/>
+        <h6 id="response"></h6>
+      </div>
+      <div class="main">
+        <div id='controls'>
+	<table>
+		<tr><td></td><td><img class=button id=ArrowUp src="css/images/ArrowUp.png" alt=""></td><td></td></tr>
+		<tr><td><img class=button id="ArrowLeft" src="css/images/ArrowLeft.png" alt=""></td>
+			<td><img src="css/images/ev3logo.png" id="ev3logo"/></td>
+			<td><img class=button id="ArrowRight" src="css/images/ArrowRight.png" alt=""></td></tr>
+		<tr><td></td><td><img class=button id="ArrowDown" src="css/images/ArrowDown.png" alt=""></td></tr>
+	</table>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
